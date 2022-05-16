@@ -6,11 +6,16 @@
 ```
 python -m venv venv
 ```
+window
 ```
 .\venv\Scripts\activate
 ```
+mac or linux
 ```
-pip install -r requirements.txt <br />
+source ./venv/bin/activate
+```
+```
+pip install -r requirements.txt 
 ```
 ```
 uvicorn main:app --reload
